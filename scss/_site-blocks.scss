@@ -113,6 +113,15 @@
 	background-repeat: no-repeat;
 }
 
+.hike-details {
+	padding-top: 10px;
+	
+	p {
+		line-height: 0.5;
+		font-size: 14px;
+	}
+}
+
 .retro-layout {
 	.img-1 {
 		@extend .bg-image2;
@@ -155,6 +164,7 @@
 		margin-left: 20px;
 		margin-top: 10px;
 	}
+
 	.v-height {
 		height: 300px;
 	}
@@ -191,6 +201,12 @@
 	}
 }
 
+.center-images {
+	display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .retro-layout-2 {
 	.v-height {
 		height: 200px;
@@ -215,10 +231,6 @@
 		}
 		.date {
 			font-size: 15px;
-		}
-		
-		.post-categories {
-
 		}
 
 		&.gradient {

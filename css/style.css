@@ -691,6 +691,14 @@ h1, h2, h3, h4, h5,
   background-repeat: no-repeat;
 }
 
+.hike-details {
+  padding-top: 10px;
+}
+.hike-details p {
+  line-height: 0.5;
+  font-size: 14px;
+}
+
 @media (max-width: 767.98px) {
   .retro-layout .img-1 {
     height: 400px !important;
@@ -758,6 +766,12 @@ h1, h2, h3, h4, h5,
     float: none !important;
     margin-bottom: 30px;
   }
+}
+
+.center-images {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .retro-layout-2 .v-height {
