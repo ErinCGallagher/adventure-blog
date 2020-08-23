@@ -691,6 +691,10 @@ h1, h2, h3, h4, h5,
   background-repeat: no-repeat;
 }
 
+.horizontal-img {
+  max-height: 400px;
+}
+
 .hike-details {
   padding-top: 10px;
 }
