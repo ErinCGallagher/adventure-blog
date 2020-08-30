@@ -787,6 +787,15 @@ h1, h2, h3, h4, h5,
     height: 200px;
   }
 }
+.retro-layout-2 .h-100-custom {
+  height: 100% !important;
+}
+@media only screen and (max-width: 600px) {
+  .retro-layout-2 .h-300-mobile {
+    height: 300px !important;
+    margin-top: 30px;
+  }
+}
 .retro-layout-2 .h-entry {
   display: block;
   position: relative;
