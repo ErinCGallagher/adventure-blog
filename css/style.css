@@ -1451,4 +1451,58 @@ h1, h2, h3, h4, h5,
   border: none;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* 3D Button */
+  .btn-3d {
+    position: relative;
+    display: inline-block;
+    font-size: 12px !important;
+    padding: 10px 20px !important;
+    margin: 10px 10px 10px !important;
+  }
+}
+/* 3D Button */
+.btn-3d {
+  position: relative;
+  display: inline-block;
+  font-size: 15px;
+  padding: 10px 30px;
+  color: white;
+  font-weight: 400;
+  margin: 20px 10px 10px;
+  border-radius: 6px;
+  text-align: center;
+  transition: top 0.01s linear;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.btn-3d a:visited {
+  color: white;
+}
+
+.btn-3d.float-right {
+  float: right;
+}
+
+.btn-3d.cyan:hover {
+  background-color: #82D1E3;
+}
+
+.btn-3d:active {
+  top: 9px;
+}
+
+.btn-3d:visited {
+  color: white;
+}
+
+.btn-3d.cyan {
+  background-color: #7fccde;
+  box-shadow: 0 0 0 1px #7fccde inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 rgba(102, 164, 178, 0.6), 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+.btn-3d.cyan:active {
+  box-shadow: 0 0 0 1px #7fccde inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
+}
+
 /*# sourceMappingURL=style.css.map */
